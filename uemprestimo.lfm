@@ -1,0 +1,77 @@
+object Form1: TForm1
+  Left = 249
+  Height = 313
+  Top = 124
+  Width = 320
+  Caption = 'Form1'
+  ClientHeight = 313
+  ClientWidth = 320
+  LCLVersion = '4.2.0.0'
+  object edtValor: TEdit
+    Left = 40
+    Height = 23
+    Top = 48
+    Width = 109
+    TabOrder = 0
+  end
+  object lblValor: TLabel
+    Left = 43
+    Height = 15
+    Top = 32
+    Width = 110
+    Caption = 'Valor do Emprestimo'
+  end
+  object edtParcelas: TEdit
+    Left = 43
+    Height = 23
+    Top = 112
+    Width = 106
+    TabOrder = 1
+  end
+  object lblParcelas: TLabel
+    Left = 43
+    Height = 15
+    Top = 96
+    Width = 106
+    Caption = 'Numero de Parcelas'
+  end
+  object btnCalcular: TButton
+    Left = 200
+    Height = 25
+    Top = 64
+    Width = 75
+    Caption = 'Calcular'
+    TabOrder = 2
+    OnClick = btnCalcularClick
+  end
+  object btnLimpar: TButton
+    Left = 200
+    Height = 25
+    Top = 104
+    Width = 75
+    Caption = 'Limpar'
+    TabOrder = 3
+    OnClick = btnLimparClick
+  end
+  object lblParcela: TLabel
+    Left = 48
+    Height = 15
+    Top = 160
+    Width = 44
+    Caption = 'Parcela: '
+  end
+  object lblTotalPago: TLabel
+    Left = 48
+    Height = 15
+    Top = 224
+    Width = 61
+    Caption = 'Total Pago: '
+  end
+  object lblTotalJuros: TLabel
+    Left = 48
+    Height = 15
+    Top = 192
+    Width = 77
+    Caption = 'Total de Juros: '
+  end
+end
