@@ -21,4 +21,4 @@ Cálculo do total de juros pagos
 Validação para evitar valores inválidos
 Aceita números com vírgula ou ponto
 
-![Tela do projeto](assets/SimuladorEmprestimo.png).
+![Tela do projeto](assets/imgSimuladorEmprestimo.png).
